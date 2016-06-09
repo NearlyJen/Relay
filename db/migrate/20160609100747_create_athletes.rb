@@ -1,6 +1,6 @@
 class CreateAthletes < ActiveRecord::Migration
   def change
-    create table :athletes do |t|
+    create_table :athletes do |t|
       t.string :username, null: false
       t.string :email
       t.integer :age
