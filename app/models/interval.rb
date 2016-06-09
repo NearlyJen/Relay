@@ -1,6 +1,6 @@
 class Interval < ActiveRecord::Base
   has_many :athlete_intervals
-  belongs_to :set
+  belongs_to :training_set
 
-  validates :distance, :intensity, :length_of_interval, presence: true
+  validates :distance, :intensity, :interval_time , presence: true
 end
