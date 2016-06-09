@@ -1,6 +1,6 @@
-class CreateSets < ActiveRecord::Migration
+class CreateTrainingSets < ActiveRecord::Migration
   def change
-    create_table :sets do |t|
+    create_table :training_sets do |t|
       t.string :name, null: false
       t.string :description
       t.string :training_type
