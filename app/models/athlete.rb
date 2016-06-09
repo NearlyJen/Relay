@@ -1,7 +1,9 @@
 class Athlete < ActiveRecord::Base
   has_many :athlete_intervals
   has_many :intervals, through: :athlete_intervals
-  has_many :training_sets, through: :intervals
+
+  has_many :assigned_sets
+  has_many :training_sets, through: :assigned_sets
 
   has_many :athlete_groups
   has_many :event_groups, through: :athlete_groups

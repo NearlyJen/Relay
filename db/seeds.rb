@@ -64,4 +64,16 @@ TrainingSet.create!(name: "Repeat fast 100s", description: "Fast", training_type
 TrainingSet.create!(name: "Mid distance endurance", description: "Form", training_type: "speed enurance", timed: true, interval_repetitions: 5, session_id: 2)
 TrainingSet.create!(name: "Distance tempo", description: "Consistency", training_type: "tempo", timed: true, interval_repetitions: 3, session_id: 3)
 
+AssignedSet.create!(athlete_id: 1, training_set_id: 1)
+AssignedSet.create!(athlete_id: 2, training_set_id: 1)
+AssignedSet.create!(athlete_id: 3, training_set_id: 2)
+AssignedSet.create!(athlete_id: 4, training_set_id: 2)
+AssignedSet.create!(athlete_id: 5, training_set_id: 3)
+AssignedSet.create!(athlete_id: 6, training_set_id: 6)
+AssignedSet.create!(athlete_id: 7, training_set_id: 2)
+AssignedSet.create!(athlete_id: 7, training_set_id: 3)
+AssignedSet.create!(athlete_id: 8, training_set_id: 1)
+AssignedSet.create!(athlete_id: 9, training_set_id: 1)
+AssignedSet.create!(athlete_id: 10, training_set_id: 2)
+AssignedSet.create!(athlete_id: 10, training_set_id: 1)
 
