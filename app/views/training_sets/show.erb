@@ -1,8 +1,9 @@
-<h1 id="timer_readout">00:00.0</h1>
-<button id="start">start</button>
-<button id="stop">stop</button>
-<button id="clear">clear</button>
-
+<div class="container center">
+  <h1 id="timer_readout">00:00.0</h1>
+  <button id="start">start</button>
+  <button id="stop">stop</button>
+  <button id="clear">clear</button>
+</div>
 <ul>
 <% @athletes.each do |athlete| %>
   <li><%= erb :'/athletes/_athlete_timer', locals: { athlete: athlete } %></li>
