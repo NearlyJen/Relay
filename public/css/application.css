@@ -1,0 +1,31 @@
+body {
+  background-color: #A1A9BD;
+  color: #0F101B;
+}
+
+.center {
+  color: #3C4965;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.header {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px dotted;
+}
+
+.header img {
+  margin: 0 auto;
+  width: 300px;
+}
+
+h1 {
+  font-size: xx-large;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
