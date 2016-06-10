@@ -1,4 +1,4 @@
-10.times { Athlete.create!(username: Faker::Name.name, email: Faker::Internet.email, age: 14)}
+10.times { Athlete.create!(username: Faker::Name.first_name, email: Faker::Internet.email, age: 14)}
 
 Interval.create!(distance: 100, intensity: 90, interval_time: 300, training_set_id: 1)
 Interval.create!(distance: 400, intensity: 90, interval_time: 300, training_set_id: 2)
