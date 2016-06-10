@@ -1,11 +1,12 @@
 <div class="container center">
   <h1 id="timer_readout">00:00.0</h1>
-  <button id="start">start</button>
-  <button id="stop">stop</button>
-  <button id="clear">clear</button>
+  <button id="stop" class="btn btn-sm btn-style">stop</button>
+  <button id="start" class="btn btn-lg btn-style">start</button>
+  <button id="clear" class="btn btn-sm btn-style">clear</button>
 </div>
-<ul>
-<% @athletes.each do |athlete| %>
-  <li><%= erb :'/athletes/_athlete_timer', locals: { athlete: athlete } %></li>
-<% end %>
-</ul>
+<div class="container center">
+  <% @athletes.each do |athlete| %>
+    <%= erb :'/athletes/_athlete_timer', locals: { athlete: athlete } %>
+  <% end %>
+</div>
+

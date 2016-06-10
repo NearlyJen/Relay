@@ -3,6 +3,10 @@ body {
   color: #0F101B;
 }
 
+h4, .btn-style{
+  color: #0F101B;
+}
+
 .center {
   color: #3C4965;
   text-align: center;
@@ -21,11 +25,20 @@ body {
 }
 
 h1 {
-  font-size: xx-large;
+  font-size: 50px;
   color: #fff;
+  margin: 20px 0px;
 }
 
-ul {
-  list-style: none;
+#start {
+  padding: 20px 50px;
+}
+
+.btn-style {
+  background-color: #fff;
+}
+
+.timer_student-stop {
+  width: 100%;
 }
 
